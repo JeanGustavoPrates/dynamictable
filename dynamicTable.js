@@ -30,7 +30,7 @@
                 headers = this.$element.find('thead');
             }
 
-            var table = $('<table class="' + this.options.tableClass + '"></table>');
+            var table = $('<table class= "' + this.options.tableClass + '"></table>');
             var rows = this.getRows(data, headers);
           
             table.append(headers);
