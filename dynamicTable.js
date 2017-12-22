@@ -7,7 +7,6 @@
     'use strict';
 
     var dynamicTable = function (element, options) {
-        debugger;
         this.$element = $(element);
         this.options = $.extend({}, $.fn.dynamicTable.defaults, options);
         this.getDataSource();
